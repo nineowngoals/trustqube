@@ -18,7 +18,7 @@ export default function Home({ paymentUrl }) {
 export async function getServerSideProps(context) {
   const invoiceId = context.query.inv || Date.now().toString();
   const NOWPAYMENTS_API_KEY = "HF7WQ8T-DN3MYYY-Q145GEH-84W8NSV";
-  const amountUSD = 450;
+  const amountUSD = 1280;
 
   try {
     const response = await axios.post(
