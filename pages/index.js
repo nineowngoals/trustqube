@@ -27,7 +27,7 @@ export async function getServerSideProps(context) {
         price_amount: amountUSD,
         price_currency: "usd",
         pay_currency: "usdttrc20",
-        order_id: invoiceId,
+        order_id: invoiceId + "- #OOLU9381872",
         order_description: "Settlement for container #OOLU9381872 - " + invoiceId,
         success_url: "https://twcargo.com/thank-you/"
       },
